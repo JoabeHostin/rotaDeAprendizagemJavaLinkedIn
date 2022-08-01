@@ -4,17 +4,17 @@ public class MultipleChoice {
     /**
      * @author: Joabe Hostin
      */
-    Scanner input = new Scanner(System.in);
+   
 
     public static void main(String[] args) {
 
-        MultipleChoice multipleChoice = new MultipleChoice();
-        multipleChoice.run();
+        
+        run();
     }
 
-    public void run() {
+    public static void run() {
 
-
+        Scanner input = new Scanner(System.in);
         String question = "Qual o nome do podcast que tem os integrantes do pânico?";
         String choiceOne = "flow";
         String choiceTwo = "ticaracaticast";
@@ -22,10 +22,7 @@ public class MultipleChoice {
         String choiceFour = "venus";
         String answer = "";
         boolean isNotCorrect = true;
-        
-        
-        
-        
+ 
         while(isNotCorrect){
 
         System.out.printf("%n%nResponda com a alternativa correta: %n%n%n%n%s %n%n %n%s %n%n%s %n%n%s %n%n%s %n%n%n",
@@ -49,8 +46,6 @@ public class MultipleChoice {
 
 
         }
-    
-    
     
     
     }
