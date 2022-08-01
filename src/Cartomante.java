@@ -23,6 +23,7 @@ public class Cartomante {
         } else {
             System.out.println("Você digitou um número inválido");
         }
+        input.close();
     }
 
 }
