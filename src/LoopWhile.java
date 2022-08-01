@@ -17,8 +17,8 @@ public static void main(String[] args){
             isOnRepeat = false;
         } 
     }
-
-    System.out.println("Tocar próxima música");
+    input.close();
+    System.out.println("Tocar próxima");
 }
 
 }
